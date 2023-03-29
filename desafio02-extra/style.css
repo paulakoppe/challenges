@@ -56,6 +56,7 @@ main p {
     font-size: 16px;
     line-height: 28px;
     text-align: center;
+    padding-bottom: 58px;
 }
 
 p span {
@@ -63,12 +64,18 @@ p span {
 
 }
 
+#line {
+    margin: auto;
+    width: 568px;
+    border: 1px solid #00bfa6;
+    margin-top: 157px; 
+}
+
 footer {
-    margin-top: 160px;
-    text-align: center;
-    font-family: 'JetBrains Mono';
-    font-size: 14px;
-    line-height: 28px;
+  padding-top: 27px;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
 }
 
 footer a {
@@ -79,14 +86,8 @@ footer a {
 
 .lock {
     position: absolute;
-    margin-top: 153px;
-    bottom: 50px;
-}
+    left: 0;
+    bottom: 0;
+    margin: 20px;
+      }
 
-#line {
-    border: 1px solid #00BFA6;
-    width: 568px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 27px;
-}
